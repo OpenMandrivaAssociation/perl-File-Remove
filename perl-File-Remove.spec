@@ -15,6 +15,7 @@ Source:     http://www.cpan.org/modules/by-module/File/%{module}-%{version}.tar.
 BuildRequires:	perl-devel
 %endif
 Buildarch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 A Perl module to remove files and directories.
