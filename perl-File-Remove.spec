@@ -1,6 +1,6 @@
 %define	module	File-Remove
 %define	name	perl-%{module}
-%define	version	0.39
+%define	version	1.40
 %define	release	%mkrel 1
 
 Name:		%{name}
