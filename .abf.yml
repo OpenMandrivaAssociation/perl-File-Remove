@@ -1,2 +1,4 @@
+removed_sources:
+  File-Remove-1.50.tar.bz2: 57c2befd0eb67da0bce93bf472521f0e0801b2d2
 sources:
-  "File-Remove-1.50.tar.bz2": 57c2befd0eb67da0bce93bf472521f0e0801b2d2
+  File-Remove-1.52.tar.gz: 35594cf6bbdb36d9082167f578d3a7f0b51f5dae
