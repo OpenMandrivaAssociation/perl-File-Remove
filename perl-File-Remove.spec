@@ -1,13 +1,13 @@
 %define	modname	File-Remove
-%define modver 1.57
+%define modver 1.58
 
 Summary:	Remove files and directories
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	3
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{modname}/
+Url:		http://metacpan.org/pod/File::Remove
 Source0:	http://www.cpan.org/modules/by-module/File/File-Remove-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
