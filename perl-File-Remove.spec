@@ -1,5 +1,5 @@
 %define	modname	File-Remove
-%define modver 1.58
+%define modver 1.61
 
 Summary:	Remove files and directories
 Name:		perl-%{modname}
