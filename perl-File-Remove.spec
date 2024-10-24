@@ -1,14 +1,13 @@
 %define	modname	File-Remove
-%define modver 1.61
 
 Summary:	Remove files and directories
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	4
+Version:	1.61
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/File::Remove
-Source0:	http://www.cpan.org/modules/by-module/File/File-Remove-%{modver}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/File/File-Remove-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test::More)
@@ -17,7 +16,7 @@ BuildRequires:	perl(Test::More)
 A Perl module to remove files and directories.
 
 %prep
-%autosetup -n %{modname}-%{modver} -p1
+%autosetup -n %{modname}-%{version} -p1
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor
@@ -33,5 +32,3 @@ A Perl module to remove files and directories.
 %doc README Changes
 %{perl_vendorlib}/File
 %{_mandir}/man3/*
-
-
